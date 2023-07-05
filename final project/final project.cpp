@@ -26,7 +26,7 @@ public:
 class Lingkaran:public bidangDatar{
 public:
 
-	string getX() {
+	int getX() {
 		return 0;
 	}
 	float jarijari(){
@@ -45,18 +45,18 @@ public:
 
 class Persegipanjang:public bidangDatar {
 public:
-	string getY() {
+	int getY() {
 		return 0;
 	}
-	float Luas() {
+	int Luas() {
 		cout << "Luas PersegiPanjang" << endl;
 	}
 
-	float keliling() {
+	int keliling() {
 		cout << "keliling PersegiPanjang" << endl;
 	}
 
-	float panjang() {
+	int panjang() {
 		cout << "panjang PersegiPanjang" << endl;
 	}
 };
