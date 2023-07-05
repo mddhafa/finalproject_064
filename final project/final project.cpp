@@ -79,6 +79,3 @@ int main() {
 	bentuk->Keliling();
 
 	return 0;
-}
-
-
